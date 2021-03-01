@@ -1,0 +1,26 @@
+{
+    "Default stories": {
+        "prefix": "storydefault",
+        "body": [
+            "",
+            "const storyConfig = {",
+            "  'title': '$1',",
+            "  'component': '',",
+            "  'importList': [],",
+            "  'DefaultDataObject': {},",
+            "  'DefaultConfigObject': {},",
+            "  'storyList': [",
+            "    {",
+            "      storyName: '',",
+            "      DataObject: {},",
+            "      ConfigObject: {}",
+            "    }",
+            "  ]",
+            "}",
+            "",
+            "const storyHelper = new StoryHelper(storyConfig);",
+            "storyHelper.initStory();"
+        ],
+        "description": "Montar estrutura padrão da story"
+	  }
+}
